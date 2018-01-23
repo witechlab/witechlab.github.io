@@ -46,6 +46,12 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+	em {
+  		font-style: italic;
+	}
+	strong {
+  		font-weight: bold;
+	}
 
 /* Box Model */
 
