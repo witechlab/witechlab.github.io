@@ -2475,9 +2475,9 @@
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/wish.png");
 		background-position: center center;
-		background-size: cover;
+		background-size: 28em;
 		height: 28em;
 		text-align: center;
 		position: relative;
