@@ -4,7 +4,7 @@ echo file_get_contents( "top.html" );
 
 
 <header>
-<h2 style="margin-left:30px">Featured Student: Akshay Gadre</h2>
+<h2 style="margin-left:30px">Akshay Gadre</h2>
 </header>
 
 <table>
