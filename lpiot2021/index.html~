@@ -1,0 +1,488 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ACM WiNTECH 2018 | ACM MobiCom 2018</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-spy="scroll" data-target="#site-nav">
+    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="index.html">ACM WiNTECH 2018</a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- navigation menu -->
+                    <li><a data-scroll onclick="program.style.display='none'; organization.style.display='none'; speakers.style.display='none'; submission.style.display='none'; demo.style.display='none'; about.style.display='block';" href="#">About</a></li>
+                    <li><a data-scroll onclick="about.style.display='none'; organization.style.display='none'; speakers.style.display='none'; submission.style.display='none'; demo.style.display='none'; program.style.display='block';" href="#">Program</a></li>
+                    <li><a data-scroll onclick="about.style.display='none'; program.style.display='none'; speakers.style.display='none'; submission.style.display='none'; demo.style.display='none'; organization.style.display='block';" href="#">Organization</a></li>   
+                    <li><a data-scroll onclick="about.style.display='none'; program.style.display='none'; organization.style.display='none'; submission.style.display='none'; demo.style.display='none'; speakers.style.display='block';" href="#">Call for Papers</a></li>
+                    <li><a data-scroll onclick="about.style.display='none'; program.style.display='none'; organization.style.display='none'; speakers.style.display='none'; demo.style.display='none'; submission.style.display='block';" href="#">Submission</a></li>
+                    <li><a data-scroll onclick="about.style.display='none'; program.style.display='none'; organization.style.display='none'; speakers.style.display='none'; submission.style.display='none'; demo.style.display='block';" href="#">Posters/Demos</a></li>    
+                                
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+
+
+    <header id="site-header" class="site-header valign-center" height="100px">
+        <div class="intro">
+
+            <h2>October 31, 2018 / New Delhi, India</h2>
+            <h1>ACM WiNTECH 2018 Workshop</h1>
+            <p>in conjunction with</p>
+            <a target="_blank" class="btn btn-white" href="https://www.sigmobile.org/mobicom/2018/">MobiCom 2018</a>
+       
+        </div>
+    </header>
+
+    <section id="about" class="section about" style="display: block;">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-sm-6"> -->
+
+   <h3> What's New </h3>
+   <ul> 
+ <li> 04/24/2018: Website is up!
+ </ul>
+ 
+   </br></br>
+   
+                    <h3 style="text-align:center;" class="section-title">The 12<sup>th</sup> ACM International Workshop on</h3>
+
+                    <h3 style="text-align:center;" class="section-title">Wireless Network Testbeds, Experimental evaluation &amp; CHaracterization</h3>
+
+	           <!-- <p align="center"> <a href="https://wintech18.hotcrp.com/" target="_blank"><b><font color="red">Submission site</font></b></a> is now open!</p>-->	
+                    <p align="justify">In recent years, it clearly emerged an increasing importance of experimental validation of innovative wireless solutions and applications, due to the increasing complexity of the wireless ecosystem. The WiNTECH workshop explicitly deals with methodological and technical issues that have to be faced for defining, running, controlling and benchmarking experiments on wireless solutions. The workshop, that this year reach the 12th edition, has a consolidated tradition for bringing together an important number of researchers and industry players working in different aspects of experimental wireless communications. The workshop will serve as a forum for sharing experiences and results with real testbeds, experimental evaluation, prototyping and empirical characterization of wireless technologies.</p>
+
+		<p align="justify">The workshop will facilitate discussions on unresolved issues in the field, such as new laboratory methodologies, key real-life limitations of current and novel wireless technologies that have emerged over the past few years (including mmWave, underwater, 5G, IoT, wearables, and SDN), as well as key challenges facing the wireless networking of the future. WiNTECH has an inherent experimental nature and thus will include a relatively large demo session where real testbeds, deployments and prototypes can be shown and discussed. Moreover, the research community will be challenged to show us their latest, breakthrough, chair-rocking and mind-blowing innovations, through the demonstration competition.</p>
+                <!-- </div> -->
+                
+                <p align="justify"> All the regular papers will be considered for the <b>Best Paper Award</b>. <!-- Top papers will be considered for a fast track on special issues in <a href="https://www.journals.elsevier.com/computer-communications">Elsevier Computer Communications (COMCOM) </a>.--> </p>
+                
+                	<p align="justify">In additional to the regular papers, the program of WiNTECH 2018 will also include:</p>
+						<li>a keynote speech of a renowned researcher</li>
+						<li>a session of demos and posters, which remains a WiNTECH highlight</li>
+						<li>a panel on a specific topic within the scope of WiNTECH that gathers key experts in this area</li>
+                    <br>
+	            <h3 class="section-title multiple-title">Important Dates</h3>
+                    <ul class="list-arrow-right">
+                         <li>Paper Registration: June 15, 2018, 23:59PM  EDT (optional) </li>
+                        <li>Paper Submission: June 22, 2018, 23:59PM  EDT 
+                        <li>Paper Acceptance Notification: July 21, 2018 
+                        <li>Paper Camera Ready: July 29, 2018 
+                        </br></br>
+                        <li>Poster/Demo Submission: July 24, 2018, 23:59PM EDT
+                        <li>Poster/Demo Acceptance Notification: Aug 7, 2018
+                	       <li>Poster/Demo Camera Ready:  Aug 15, 2018 
+                    </ul>
+                    <p>
+                <!-- </div> -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section>
+
+<section id="program" class="section facts" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title"> WiNTECH'18 Program</h3>
+                </div>
+            </div>
+<div>
+Page will be updated shortly.
+</div>
+<!--  
+ <table border="0" cellspacing="10">
+  <tr>
+    <th> </th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>08:00 - 09:00</td>
+    <td>Registrations and Coffee</td>
+  </tr>
+ <tr>
+    <td> 09:00 - 09:10</td>
+    <td> Welcome and Introductory Remarks</td>
+  </tr>
+   <tr>
+    <td> 09:10 - 10:30</td>
+    <td> <b>Session I: Running Experiments in Real World </b></td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> 
+       <ulx>
+       <li> FLEX-MONROE: A Unified Platform for Experiments under Controlled and Operational LTE Settings
+       <li> Results from running an experiment as a service platform for mobile networks
+       <li> cniCloud: Querying the Cellular Network Information at Scale
+       <li> Repeatability of Vehicular Measurements on Public Roadways
+       <ulx>
+    </td>
+  </tr>
+    <tr>
+    <td> 10:30 - 11:00 </td>
+    <td> Coffee Break
+   </tr>
+ <tr>
+    <td> 11:00 - 12:00  </td>
+    <td> <b> Keynote: Prof. Marco Gruteser </b>
+   </tr>
+ <tr>
+    <td> 12:00 - 13:00   </td>
+    <td> Lunch break
+   </tr>
+   
+    <tr>
+    <td>  13:00 - 14:00 </td>
+    <td> <b>Session II: Building Better SDR Platforms </b></td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> 
+       <ulx>
+         <li> Cellular Access Multi-Tenancy through Small Cell Virtualization and Common RF Front-End Sharing
+	<li>LTE Spectrum Sharing Research Testbed: Integrated Hardware, Software, Network and Data
+	<li> LTESS-track: A precise and fast frequency offset estimation for low-cost SDR platforms
+       <ulx>
+    </td>
+  </tr>
+      <tr>
+    <td>  14:00 - 14:20 </td>
+    <td> Coffee Break </td>
+  </tr>
+  <tr>
+    <td>  14:20 - 15:40 </td>
+    <td> <b>Session III: Innovative Experimentation Platforms and Methods </b></td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> 
+       <ulx>
+         <li>Nexmon: Build Your Own Wi-Fi Testbeds With Low-Level MAC and PHY-Access Using Firmware Patches on Off-the-Shelf Mobile Devices
+	<li> Finding by Counting: A Probabilistic Packet Count Model for Indoor Localization in BLE Environments 
+	<li> X60: A Programmable Testbed for Wideband 60 GHz WLANs with Phased Arrays
+	<li> EVERUN - Enabling Power Consumption Monitoring in Underwater Networking Platforms
+       <ulx>
+    </td>
+  </tr>
+    <tr>
+    <td>  15:40 - 16:00 </td>
+    <td> Coffee Break </td>
+  </tr>
+  <tr>
+   <td>  16:00 - 17:00 </td>
+    <td> <b>Demo and Poster Session </b></td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> 
+       <ulx>
+         <li>Demo: Material Identification with Commodity RFID Devices
+         <li>Demo: Experimentation in Controlled and Operational LTE Se ings with FLEX-MONROE
+         <li>Demo: Enabling Asynchronous Awakenings in Wireless Sensor Networks Towards Removing Duty-Cycle Barriers
+         <li>Demo: In-situ Power Consumption Monitoring for Sensor Networks supporting Extreme Dynamic Range
+         <li>Demo: Spectrum Access System on Cognitive Radio Network Testbed
+         <li>Demo: Nexmon in Action: Advanced Applications Powered by the Nexmon Firmware Patching Framework
+         <li>Demo: Argos V3 (Invited demo)
+         <li>Poster: Integration of WiFi ToF Positioning System in the Open, Flexible and Adaptive WiSHFUL Architecture
+         
+       <ulx>
+    </td>
+  </tr>
+  <tr>
+    <td>  17:00 - 17:10  </td>
+    <td>   Awards and Conclusive Remarks</td>
+  </tr>
+ </table>            
+</div>
+-->
+
+
+ </section>
+    
+    
+    <section id="speakers" class="section speakers" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">CALL FOR PAPERS</h3>
+                </div>
+            </div>
+             <!-- <p align="justify">Download pdf version from <a href="https://peng.cse.ohio-state.edu/wintech2018/CFP.pdf" target="_blank"><b>here</b>.</a></p> -->
+            <p align="justify"> ACM WiNTECH workshop is purposely tailored to disseminate research activities related to novel methods and techniques to manage experimental testbeds, innovative wireless communication applications and plat-forms. WiNTECH, which will celebrate its 12th edition this year, stands out as one of the most long-lasting workshops co-located with ACM MobiCom. WiNTECH offers a consolidated experience to academics and industrial practitioners that seek to bridge the gap between fundamental models/algorithms and practical communication systems and experimental platforms. The workshop will serve as a forum for sharing experiences and results with real testbeds, experimental evaluation, prototyping and empirical characterization of wireless technologies.</p>
+
+	    <p align="justify">We are seeking original, previously unpublished papers empirically addressing key issues and challenges in wireless networking. All submissions will be judged by their technical merit and relevance to the workshop, based on a thorough review process by the Technical Program Committee.</p>
+
+			<p align="justify">Topics of interest include, but are not limited to:</p>
+
+			<ulx class="list-arrow-right" style="font-weight: 100;">
+                <li>Designing and evaluation of wireless testbeds and prototyping platforms for:</li>
+                <ol>
+mmWave and Terahertz communications and networking<br/>
+Long-Range/Low-Power Wide-Area Wireless Networking<br/>
+Mobile/Wireless Research & Edge / Cloud Computing<br/>
+Mobile Data Science & Analysis<br/>
+Mobile Web<br/>
+Communications for Embedded and Energy-Harvesting Systems<br/>
+Sensing with Radio, Light, Sound, and Vibration<br/>
+Emerging PHY implemented on Software defined radio (SDR)<br/>
+IoT and wearable computing<br/>
+Visible Light Communications (VLC)<br/>
+UAV, multi-robot and vehicular networks<br/>
+Underwater/underground networks<br/>
+Software Defined Networking (SDN) for wireless networks<br/>
+Cellular networks (LTE, 5G)<br/>
+Innovative protocols on sensor nodes<br/>
+Innovative protocols on Wi-Fi nodes<br/>
+Other wireless networks, mobile computing, cyber-physical systems<br/>
+                </ol>
+                <li>Experiences/lessons from recent testbed deployments</li>
+				<li>Techniques for improving reproducibility of real-world testing</li>
+				<li>Testbed control and management issues</li>
+				<li>Evaluation of large-scale and heterogeneous wireless networks</li>
+				<li>Experimental evaluation of performance/energy consumption of applications and protocols, including the impact of cross-layer interactions</li>
+				<li>Measurement and evaluation on large-scale smartphone based deployments</li>
+				<li>Real-world evaluation of cellular networks</li>
+				<li>Studies on real-world white-space networks, interference and spectrum usage measurements</li>
+				<li>Coexistence in unlicensed bands, including LTE/WiFi coexistence</li>
+				<li>Measurement and characterization (modeling) of real-world aspects of wireless networks such as usage patterns, traffic, mobility and channel characteristics</li>
+				<li>Security and privacy mechanisms for mobile and wireless networks</li>
+            </ulx>
+            <p>
+            If you have any other question regarding WiNTECH 2018, please contact us at <b>chair.wintech2018@gmail.com</b>.
+	    <p align="center"><b><font color="red"><i>Look Forward to Seeing You at WiNTECH 2018, New Delhi, India.</i></font></b></a></p>	
+        </div>
+    </section>
+
+   
+    <section id="organization" class="section faq" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">ORGANIZERS</h3>
+                </div>
+            </div>
+
+            <h3>Steering Committee</h3>
+	    Chunyi Peng, Purdue University
+            <br>
+            Sung-Ju Lee, KAIST
+            <br>
+            Ilenia Tinnirello, University degli Studi di Palermo
+            <br>
+            Giuseppe Bianchi, University of Roma Tor Vergata
+            <br>
+            Dimitrios Koutsonikolas, University at Buffalo, SUNY
+            <br>
+            Paul Patras, University of Edinburgh
+
+            <h3>Workshop Chairs</h3>
+	    Swarun Kumar, Carnegie Mellon University
+            <br>
+	    Andres Garcia-Saavedra, NEC Laboratories Europe
+
+            <h3>Technical Program Committee</h3>
+	    Details will be updated shortly.
+ <!--
+            <h3>Demo and Poster Chair</h3>
+            Pengyu Zhang, Stanford University
+
+
+	    <h3>Publicity Chair</h3>
+            Francesco Gringoli, Università di Brescia
+
+
+            <h3>Technical Program Committee</h3>
+
+	    
+            
+	    Eugene Chai, NEC Labs
+	    <br>
+	    Sunghyun Choi, Seoul National University
+	    <br>
+	    Marco Fiore, CNR
+	    <br>
+	    Domenico Garlisi, CNIT
+	    <br>
+	    Domenico Giustiniano, IMDEA Networks
+	    <br>
+	    Francesco Gringoli, Università di Brescia
+	    <br>
+	    Spilios Giannoulis, IMEC 
+	    <br>
+	    Chi-Yu Li, National Chiao Tung University
+	    <br>
+	    Yuanjie Li, UCLA
+	    <br>
+	    David Malone, Hamilton Institute, Ireland
+	    <br>
+	    Tommaso Melodia, Northeastern
+	    <br>
+	    Vishnu Navda, MSR India
+	    <br>
+	    Chiara Petrioli, Sapienza University of Rome
+	    <br>
+	    Ioannis Pefkianakis, HP Labs
+            <br>
+	    Paul Patras, University of Edinburgh
+	    <br>
+	    Guan-Hua (Scott) Tu, Michigan State University
+	    <br>
+	    Szymon Szott, AGH University
+  	    <br>
+	    Violet Syrotiuk, Arizona University
+	    <br>
+	    Joerg Widmer, IMDEA Networks
+	    <br>
+	    Pengyu Zhang, Stanford
+-->
+    </section>
+
+
+    <section id="submission" class="section registration" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">SUBMISSION</h3>
+                </div>
+            </div>
+
+	<p align="justify">Papers should contain original material and not be previously published or currently submitted for consideration elsewhere. Manuscripts must be submitted by using the HOTCRP conference <a href="https://wintech18.hotcrp.com/" target="_blank">management system</a>. Prospective authors are encouraged to submit a single PDF file with all font embedded, using the ACM conference proceedings format (use the same PDF <a href="https://www.sigmobile.org/mobicom/2018/cfp.php" target="_blank"><b>formatting guidelines</b></a> as the main conference). Paper length is limited to eight (8) pages (in two-column, 10-point format) including references, figures and everything. Papers must include the author name and affiliation for single-blind peer reviewing by the program committee. Authors of accepted papers are expected to present their papers at the workshop. Accepted papers will be published in the ACM WiNTECH proceedings and will be archived in the ACM Library. All papers will be considered for the <b>Best Paper Award</b>.
+	</br></br>
+
+<!--	
+	<b>Good news</b>: Top papers will be considered for a fast track on special issues in <a href="https://www.journals.elsevier.com/computer-communications">Elsevier Computer Communications (COMCOM) </a>. These submissions to COMCOM should be extended (about 30% or more).
+	 
+	-->
+	
+            <br>
+            <br>
+            Visit the <a href="https://wintech18.hotcrp.com/" target="_blank"><b>paper submission site</b></a> to submit your manuscript.
+            </p>
+
+            <h3 class="section-title multiple-title">Important Dates</h3>
+
+
+            <ul class="list-arrow-right">
+                         <li>Paper Registration: June 15, 2018, 23:59PM  EDT (optional) </li>
+                        <li>Paper Submission: June 22, 2018, 23:59PM  EDT </li>
+                        <li>Paper Acceptance Notification: July 21, 2018 </li>
+                        <li>Paper Camera Ready: July 29, 2018</li>
+                        </br></br>
+                        <li>Poster/Demo Submission: July 24, 2018, 23:59PM EDT
+                        <li>Poster/Demo Acceptance Notification: Aug 7, 2018
+                	<li>Poster/Demo Camera Ready: Aug 15, 2018 
+	       
+	       
+            </ul>
+                
+        </div>
+    </section>
+
+    <section id="demo" class="section demo" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">CALL FOR POSTERS AND DEMOS</h3>
+                </div>
+            </div>
+
+            <p align="justify">WiNTECH continues its established tradition of hosting an interactive demo and poster session, and welcomes proposals for demonstrations of novel work in wireless network testbeds, measurement platforms and results, and innovative prototypes. The areas of interest overlap those listed in the workshop call for papers. The innovations showcased can be at any layer of the protocol stack, from physical to application. However, we particularly encourage demonstrations and posters that span over multiple layers and wireless networking must be their key topic.</p>
+
+            <p align="justify">The demos must be presented live at the workshop venue, i.e., a presentation of a powerpoint, video, etc. only is not allowed. The posters may describe work in progress, while the session will offer an excellent opportunity to receive feedback and discuss early research. We emphasize that the poster/demo session is not a forum to display commercial products.</p>
+
+           <p align="justify">  Each submission must be a single PDF file no longer than two pages in length (including figures, tables, and references), using two-column format, 10-point size or greater and in PDF format following the same <a href="https://www.sigmobile.org/mobicom/2018/cfp.php" target="_blank"><b>formatting guidelines</b></a> as the main conference. Papers must include the author name and affiliation. All poster titles should begin with the keyword "Poster:" and all demo titles should start with "Demo:". The demo should list the demo requirements at the workshop venue if they are more than a table. All remaining submission guidelines are the same as that of the main conference. Papers must include the author name and affiliation. All poster titles should begin with the keyword "Poster:" and all demo titles should start with "Demo:". The demo should list the demo requirements at the workshop venue if they are more than a table. <!-- <b>All the submissions will be sent to pyzhang@cs.stanford.edu</b> -->
+            <!-- <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Demo Competition: WinCool [Sponsored by:<a href="https://www.meraki.com/"><img src="https://static.tumblr.com/8b19b4ef5bda1fc0934c4a8dbd1698ce/qrnn2a6/vk5nyekpy/tumblr_static_1m2llv2wlusk0scsgck04wsco.png" alt="Meraki" width="180px" height=auto></a> ]</h3>
+                </div>
+            </div> -->            
+            <p></p>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Important Dates</h3>
+                </div>
+            </div>
+            <ul class="list-arrow-right">
+                        <li>Poster/Demo Submission: July 24, 2018, 23:59PM EDT</li>
+                        <li>Poster/Demo Acceptance Notification: Aug 7, 2018</li>
+                	<li>Poster/Demo Camera Ready: Aug 15, 2018 </li>
+            </ul>
+            <p></p>
+            
+        </div>
+    </section>
+
+    <section id="keynote" class="section keynote" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">KEYNOTE</h3>
+                </div>
+            </div>
+
+	    <div> Page will be updated shortly. </div>
+<!--
+            <b>Speaker</b>
+            <br>
+            <p align='justify'>TBD</p>
+            <b>Title</b>
+            <br>
+            <p align='justify'>TBD</p>
+            <b>Abstract</b>
+            <br>
+            <p align='justify'>TBD</p>
+            <b>Bio</b>
+            <br>
+            <p align='justify'>TBD</p>
+-->
+
+    </section> 
+
+    
+
+    <!-- script -->
+    <script type="text/javascript">
+    function hidealldivs (){
+    	about.style.display = 'none';
+    	speakers.style.display='none';
+    	faq.style.display='none';
+    	registration.style.display='none';
+    	// schedule.style.display='none';
+    	demo.style.display='none';
+    	keynote.style.display='none';
+        // awards.style.display='none';
+    }
+    </script>
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
