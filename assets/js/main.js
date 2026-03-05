@@ -1,77 +1,53 @@
-/*
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+/* WiTech Lab — Mobile Navigation */
+(function () {
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.site-nav');
+  const overlay = document.querySelector('.nav-overlay');
+  if (!toggle || !nav) return;
 
-(function($) {
+  function open() {
+    nav.classList.add('is-open');
+    if (overlay) overlay.classList.add('is-visible');
+    toggle.setAttribute('aria-expanded', 'true');
+  }
 
-	skel
-		.breakpoints({
-			desktop: '(min-width: 737px)',
-			tablet: '(min-width: 737px) and (max-width: 1200px)',
-			mobile: '(max-width: 736px)'
-		})
-		.viewport({
-			breakpoints: {
-				tablet: {
-					width: 1080
-				}
-			}
-		});
+  function close() {
+    nav.classList.remove('is-open');
+    if (overlay) overlay.classList.remove('is-visible');
+    toggle.setAttribute('aria-expanded', 'false');
+  }
 
-	$(function() {
+  toggle.addEventListener('click', function () {
+    nav.classList.contains('is-open') ? close() : open();
+  });
 
-		var $window = $(window),
-			$body = $('body');
+  if (overlay) overlay.addEventListener('click', close);
 
-		// Fix: Placeholder polyfill.
-			$('form').placeholder();
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') close();
+  });
+})();
 
-		// Prioritize "important" elements on mobile.
-			skel.on('+mobile -mobile', function() {
-				$.prioritize(
-					'.important\\28 mobile\\29',
-					skel.breakpoint('mobile').active
-				);
-			});
+/* Group Photo Carousel */
+(function () {
+  const slides = document.querySelectorAll('.carousel-slide');
+  if (!slides.length) return;
+  let current = 0;
+  setInterval(function () {
+    const old = slides[current];
+    old.classList.add('exiting');
+    old.classList.remove('active');
 
-		// Off-Canvas Navigation.
+    let next;
+    do { next = Math.floor(Math.random() * slides.length); } while (next === current);
+    current = next;
+    slides[current].classList.add('active');
 
-			// Title Bar.
-				$(
-					'<div id="titleBar">' +
-						'<a href="#navPanel" class="toggle"></a>' +
-						'<span class="title">' + $('#logo').html() + '</span>' +
-					'</div>'
-				)
-					.appendTo($body);
-
-			// Navigation Panel.
-				$(
-					'<div id="navPanel">' +
-						'<nav>' +
-							$('#nav').navList() +
-						'</nav>' +
-					'</div>'
-				)
-					.appendTo($body)
-					.panel({
-						delay: 500,
-						hideOnClick: true,
-						hideOnSwipe: true,
-						resetScroll: true,
-						resetForms: true,
-						side: 'left',
-						target: $body,
-						visibleClass: 'navPanel-visible'
-					});
-
-			// Fix: Remove navPanel transitions on WP<10 (poor/buggy performance).
-				if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
-					$('#titleBar, #navPanel, #page-wrapper')
-						.css('transition', 'none');
-
-	});
-
-})(jQuery);
+    setTimeout(() => {
+      old.style.transition = 'none';
+      old.classList.remove('exiting');
+      old.offsetHeight; // force reflow
+      old.style.transition = '';
+    }, 500);
+  }, 3000);
+})();
