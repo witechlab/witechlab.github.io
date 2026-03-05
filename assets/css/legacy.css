@@ -1,0 +1,127 @@
+/* ==========================================================================
+   WiTech Lab — Legacy Compatibility Stylesheet
+   For standalone .html subpages that reference main.css
+   When subpages are migrated, change their <link> to reference this file
+   ========================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&family=Source+Serif+4:wght@400;600;700&display=swap");
+
+:root {
+  --color-primary: #C41230;
+  --color-primary-dark: #9E0E27;
+  --color-text: #2D2D2D;
+  --color-text-secondary: #5A6368;
+  --color-heading: #1A1A1A;
+  --color-bg: #FAFAFA;
+  --color-surface: #FFFFFF;
+  --color-border: #E5E7EB;
+  --color-header-bg: #1B1B1B;
+  --color-footer-bg: #F0F1F3;
+  --font-display: 'Source Serif 4', Georgia, serif;
+  --font-body: 'Source Sans 3', system-ui, sans-serif;
+  --container-max: 1200px;
+  --radius: 6px;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.08);
+  --shadow-md: 0 4px 12px rgba(0,0,0,.1);
+  --transition: .2s ease;
+}
+
+/* Reset */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body { font-family: var(--font-body); font-size: 16px; line-height: 1.7; color: var(--color-text); background: var(--color-bg); -webkit-font-smoothing: antialiased; }
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--color-primary); text-decoration: none; transition: color var(--transition); }
+a:hover { color: var(--color-primary-dark); }
+ul, ol { list-style: none; }
+em { font-style: italic; }
+strong { font-weight: 600; }
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-display); color: var(--color-heading); line-height: 1.3; font-weight: 600; }
+p { margin-bottom: 1em; }
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+/* Skel Grid */
+.row { display: flex; flex-wrap: wrap; }
+.row::after { content: ''; display: table; clear: both; }
+.row > * { padding: 0 0 0 25px; box-sizing: border-box; }
+.row { margin: 0 0 0 -25px; }
+
+.\31 2u, .\31 2u\24 { width: 100%; }
+.\31 1u, .\31 1u\24 { width: 91.6667%; }
+.\31 0u, .\31 0u\24 { width: 83.3333%; }
+.\39 u, .\39 u\24 { width: 75%; }
+.\38 u, .\38 u\24 { width: 66.6667%; }
+.\37 u, .\37 u\24 { width: 58.3333%; }
+.\36 u, .\36 u\24 { width: 50%; }
+.\35 u, .\35 u\24 { width: 41.6667%; }
+.\34 u, .\34 u\24 { width: 33.3333%; }
+.\33 u, .\33 u\24 { width: 25%; }
+.\32 u, .\32 u\24 { width: 16.6667%; }
+.\31 u, .\31 u\24 { width: 8.3333%; }
+
+@media screen and (max-width: 736px) {
+  .\31 2u\28mobile\29, .\31 2u\24\28mobile\29 { width: 100%; }
+  .\31 1u\28mobile\29, .\31 1u\24\28mobile\29 { width: 91.6667%; }
+  .\31 0u\28mobile\29, .\31 0u\24\28mobile\29 { width: 83.3333%; }
+  .\39 u\28mobile\29, .\39 u\24\28mobile\29 { width: 75%; }
+  .\38 u\28mobile\29, .\38 u\24\28mobile\29 { width: 66.6667%; }
+  .\37 u\28mobile\29, .\37 u\24\28mobile\29 { width: 58.3333%; }
+  .\36 u\28mobile\29, .\36 u\24\28mobile\29 { width: 50%; }
+  .\35 u\28mobile\29, .\35 u\24\28mobile\29 { width: 41.6667%; }
+  .\34 u\28mobile\29, .\34 u\24\28mobile\29 { width: 33.3333%; }
+  .\33 u\28mobile\29, .\33 u\24\28mobile\29 { width: 25%; }
+  .\32 u\28mobile\29, .\32 u\24\28mobile\29 { width: 16.6667%; }
+  .\31 u\28mobile\29, .\31 u\24\28mobile\29 { width: 8.3333%; }
+}
+
+/* Structural IDs */
+#page-wrapper { min-height: 100vh; }
+#header-wrapper { background: var(--color-header-bg); border-bottom: 1px solid rgba(255,255,255,.08); }
+#header { max-width: var(--container-max); margin-inline: auto; padding: 1rem 1.5rem; min-height: 80px; position: relative; }
+#header h1 { position: absolute; left: 1.5rem; bottom: 1rem; }
+#header h1 a { color: #fff; text-decoration: none; font-family: var(--font-display); font-size: 1.75rem; font-weight: 700; }
+#header nav { position: absolute; right: 1.5rem; bottom: 1.25rem; }
+#header nav a { color: rgba(255,255,255,.75); text-decoration: none; margin-left: 2rem; font-size: .95rem; }
+#header nav a:hover { color: #fff; }
+
+#banner { background: var(--color-header-bg); color: #fff; padding: 2rem 0; }
+#banner .container { max-width: var(--container-max); margin-inline: auto; padding-inline: 1.5rem; }
+#banner p { font-size: 1.5rem; font-family: var(--font-display); font-weight: 400; }
+
+#content-wrapper { background: var(--color-bg); padding: 3rem 0; }
+#content { max-width: var(--container-max); margin-inline: auto; }
+#content .container { max-width: var(--container-max); margin-inline: auto; padding-inline: 1.5rem; }
+#content section { background: var(--color-surface); padding: 2rem 1.75rem; border-radius: var(--radius); box-shadow: var(--shadow-sm); margin-bottom: 1.5rem; }
+#content h2 { font-size: 1.4rem; color: var(--color-heading); margin-bottom: .5em; }
+#content a { color: var(--color-primary); }
+
+#footer-wrapper { background: var(--color-footer-bg); padding: 2rem 0; border-top: 1px solid var(--color-border); }
+#footer { max-width: var(--container-max); margin-inline: auto; padding-inline: 1.5rem; color: var(--color-text-secondary); }
+#footer a { color: var(--color-text-secondary); }
+
+#copyright { text-align: center; padding: 1.5rem; color: #999; font-size: .85rem; border-top: 1px solid var(--color-border); }
+#navPanel, #titleBar { display: none; }
+
+/* Legacy list + image styles */
+.check-list li { padding: .5em 0; border-bottom: 1px solid var(--color-border); line-height: 1.6; }
+.check-list li:last-child { border-bottom: none; }
+.link-list li { padding: .3em 0; border-bottom: 1px solid var(--color-border); }
+.link-list li:last-child { border-bottom: none; }
+.feature-image { display: block; margin-bottom: 1.5rem; }
+.feature-image img { width: 100%; }
+.bordered-feature-image { display: block; background: var(--color-surface); padding: 8px; box-shadow: var(--shadow-sm); margin-bottom: 1.5rem; }
+.bordered-feature-image img { width: 100%; }
+.button-big { display: inline-block; background: var(--color-primary); color: #fff; padding: 12px 36px; border-radius: var(--radius); font-size: 1.1rem; font-weight: 600; text-decoration: none; }
+.button-big:hover { background: var(--color-primary-dark); color: #fff; }
+
+center { display: block; text-align: center; }
+figure { display: inline-block; text-align: center; margin: .5rem; }
+figcaption { font-size: .9rem; margin-top: .25rem; color: var(--color-text); }
+table { border-collapse: collapse; }
